@@ -49,8 +49,6 @@ class DetectFace:
         # set the variables
         # Caution: this coordinates fits on the RESIZED image.
         self.right_eyebrow = self.extract_face_part(face_parts[0])
-        #cv2.imshow("right_eyebrow", self.right_eyebrow)
-        #cv2.waitKey(0)
         self.left_eyebrow = self.extract_face_part(face_parts[1])
         self.right_eye = self.extract_face_part(face_parts[2])
         self.left_eye = self.extract_face_part(face_parts[3])

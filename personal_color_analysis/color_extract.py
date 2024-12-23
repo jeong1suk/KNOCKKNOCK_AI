@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 from sklearn.cluster import KMeans
-# from skimage import io
 from itertools import compress
 
 class DominantColors:
